@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 
-# Matplotlib will help us draw the shot charts and display data on them
+# Import Matplotlib - will help us draw the shot charts and display data on them
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 
@@ -23,7 +23,7 @@ import sys
 import json 
 import requests
 
-# Data from NBA api
+# Import data from NBA api
 from nba_api.stats.static import players
 from nba_api.stats.static import teams
 from nba_api.stats.endpoints import shotchartdetail
@@ -32,7 +32,7 @@ from nba_api.stats.endpoints import teamdashboardbyyearoveryear
 
 #------------------------------------------------------------------------------------------------------
 
-# Streamlit app where the dashboard will be presented
+# Configure Streamlit app where the dashboard will be presented
 # Page title & icon 
 st.set_page_config(page_title='NBA ShotChart Dashboard', # ref: https://discuss.streamlit.io/t/fav-icon-title-customization/10662/2
                    page_icon=':basketball:')
