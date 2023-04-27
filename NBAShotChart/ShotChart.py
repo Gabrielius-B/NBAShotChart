@@ -27,7 +27,6 @@ import requests
 from nba_api.stats.static import players
 from nba_api.stats.static import teams
 from nba_api.stats.endpoints import shotchartdetail
-from nba_api.stats.endpoints import teaminfocommon
 from nba_api.stats.endpoints import teamdashboardbyyearoveryear
 
 #------------------------------------------------------------------------------------------------------
